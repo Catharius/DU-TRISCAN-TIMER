@@ -1,6 +1,6 @@
 # DU-TRISCAN-TIMER
 
-A quick and dirty timer of 15 min for territory scanners
+A quick and dirty timer for territory scanners
 
 You can adjust the duration in the lua parameters.
 
