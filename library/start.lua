@@ -1,4 +1,4 @@
-timer_duration=10
+timer_duration=900 --export : timer duration in seconds
 chronostart = -1
 deg_r = 0
 deg_l = 0
