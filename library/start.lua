@@ -1,4 +1,5 @@
 timer_duration=900 --export : timer duration in seconds
+timer_wakeup_sound=false --export : when the timer end, it will emit a sound by using a setWaypoint command
 chronostart = -1
 deg_r = 0
 deg_l = 0
