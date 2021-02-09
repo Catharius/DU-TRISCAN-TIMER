@@ -144,3 +144,6 @@ html = [[<style>
 </div>
 ]]
 system.setScreen(html)
+if timer_wakeup_sound then
+	system.setWaypoint("::pos{0,0,0,0,0}")
+end    
