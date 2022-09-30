@@ -1,8 +1,8 @@
 if chronostart < 0 then
-    chronostart = system.getTime()
+    chronostart = system.getArkTime()
 end    
-time_left = (timer_duration-(system.getTime()-chronostart))
-time_spent = (system.getTime()-chronostart)
+time_left = (timer_duration-(system.getArkTime()-chronostart))
+time_spent = (system.getArkTime()-chronostart)
 
 if time_spent<=(timer_duration/2) then
 	deg_r=time_spent*(360/timer_duration)

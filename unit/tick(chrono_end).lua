@@ -145,5 +145,7 @@ html = [[<style>
 ]]
 system.setScreen(html)
 if timer_wakeup_sound then
-	system.setWaypoint("::pos{0,0,0,0,0}")
+    if system.isPlayingSound()==0 then
+        system.playSound("ts_complete.mp3")
+    end
 end    
